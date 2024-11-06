@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(237, 237, 253);
+    font-family: Arial, sans-serif; 
+}
+
+
+
+.bookcategories{
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size:larger;
+}

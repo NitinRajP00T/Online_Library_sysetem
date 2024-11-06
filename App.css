@@ -1,0 +1,27 @@
+.message{
+    text-align: center;
+    color:rgba(104, 28, 28, 0.715);
+    background-color:rgba(144, 140, 24, 0.289);
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+footer{
+    background-color: rgba(14, 9, 9, 0.563);
+    height: 250px;
+    color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerchild{
+    margin-top: 50px;
+    margin-bottom: 25px;   
+}
+
+.footerheader{
+    text-align: center;
+}

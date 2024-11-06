@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff9100;
+    padding: 15px 0;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.child {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.child:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #d9d9d9;
+}
+
+.child.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
